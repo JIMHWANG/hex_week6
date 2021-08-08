@@ -9046,6 +9046,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: calc(1.35rem + 1.2vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -13204,6 +13208,9 @@ fieldset:disabled .btn {
   .fs-4 {
     font-size: 1.5rem !important;
   }
+  .fs-7 {
+    font-size: 2.25rem !important;
+  }
 }
 
 @media print {
@@ -13377,6 +13384,48 @@ header nav ul {
 
 .live-replay {
   max-width: 1110px;
+}
+
+.tai-design {
+  padding: 80px 85px 52px 85px;
+}
+
+.tai-design .introduce {
+  width: 350px;
+  line-height: 1.5;
+}
+
+.tai-design img {
+  width: 445px;
+  height: 285px;
+}
+
+.live-design {
+  padding: 80px 85px 52px 85px;
+}
+
+.live-design .introduce {
+  width: 350px;
+  line-height: 1.5;
+}
+
+.live-design img {
+  width: 445px;
+  height: 285px;
+}
+
+.kaohsiung-design {
+  padding: 80px 85px 52px 85px;
+}
+
+.kaohsiung-design .introduce {
+  width: 350px;
+  line-height: 1.5;
+}
+
+.kaohsiung-design img {
+  width: 445px;
+  height: 285px;
 }
 
 /*# sourceMappingURL=all.css.map */
