@@ -26,8 +26,25 @@
   height: 146px;
 }
 
-.hot-exhibition .hot-exhibition-center {
-  margin: 20px 0;
+@media (max-width: 376px) {
+  .hot-exhibition .container .exhibition-img img {
+    width: 345px;
+    height: 345px;
+  }
+  .hot-exhibition .container .exhibition-content .content-main {
+    width: 90%;
+    height: 34%;
+  }
+  .hot-exhibition .container .exhibition-content .content-btn {
+    margin-top: 34px;
+  }
+  .hot-exhibition .container .exhibition-content .content-btn button {
+    line-height: 1.5;
+    padding: 10px 16px;
+  }
+  .hot-exhibition .container .exhibtion-date {
+    display: none;
+  }
 }
 
 .live-replay {
