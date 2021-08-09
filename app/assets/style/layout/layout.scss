@@ -36,11 +36,24 @@ header{
   .like-guess{
     max-width: 1110px;
     .like-guess-exhibition{
-      ul{
-        li{
+      img{
+        height: 350px;
+        width: 350px;
+      }        
+      .guess-like-last{
+        img{
+          width: 255px;
+        }
+      }
+    }
+  }
+
+  @media (max-width:376px) {
+    .like-guess{
+      .like-guess-exhibition{    
+        .guess-like-last{
           img{
-            height: 320px;
-            width: 320px;
+            width: 350px;
           }
         }
       }
@@ -72,6 +85,20 @@ header{
     }
   }
 
+  @media (max-width:376px) {
+    .sencond-banner{
+      padding: 222px 15px 36px 15px;
+      .banner-content{
+        width: 345px;
+      }
+      .subscribe{
+        input[type="text"]{
+          padding: 11px 20px 13px 12px;
+        }
+      }
+    }
+  }
+
 .footer{
     max-width: 1110px;
     .footer-topic{
@@ -84,4 +111,16 @@ header{
             height: 100%;
         }
     }
+}
+
+@media (max-width:376px) {
+  .footer{
+    padding-left: 16px;
+    .footer-topic{
+          white-space: nowrap;
+    }
+    nav{
+      display: none;
+    }
+}
 }

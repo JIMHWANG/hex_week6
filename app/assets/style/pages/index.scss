@@ -27,9 +27,35 @@
       }
     }
   }
-  .hot-exhibition-center{
-    margin: 20px 0;
-  }
+}
+
+@media (max-width:376px){
+  .hot-exhibition{
+    .container{
+      .exhibition-img{
+        img{
+          width: 345px;
+          height: 345px;
+        }
+      }
+      .exhibition-content{
+        .content-main{
+          width: 90%;
+          height: 34%;
+        }
+        .content-btn{
+          margin-top: 34px;
+          button{
+            line-height: 1.5;
+            padding: 10px 16px;
+          }
+        }
+      }
+      .exhibtion-date{
+        display: none;
+      }
+    }
+  }  
 }
 
 .live-replay{
