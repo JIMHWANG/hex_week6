@@ -7,9 +7,45 @@
   line-height: 1.5;
 }
 
-.tai-design img {
+.tai-design .title-date {
+  display: none;
+}
+
+.tai-design .sm-pic {
+  display: none;
+  width: 345px;
+  height: 221px;
+}
+
+.tai-design .lg-pic {
   width: 445px;
   height: 285px;
+}
+
+@media (max-width: 376px) {
+  .tai-design {
+    padding: 45px 15px;
+  }
+  .tai-design .introduce {
+    width: 350px;
+    line-height: 1.5;
+  }
+  .tai-design .title {
+    width: 350px;
+  }
+  .tai-design .title-date {
+    width: 350px;
+    display: block;
+  }
+  .tai-design .sm-pic {
+    display: block;
+  }
+  .tai-design .lg-pic {
+    display: none;
+  }
+  .tai-design .lg-date {
+    display: none;
+  }
 }
 
 .live-design {
@@ -21,9 +57,45 @@
   line-height: 1.5;
 }
 
-.live-design img {
+.live-design .title-date {
+  display: none;
+}
+
+.live-design .sm-pic {
+  display: none;
+  width: 345px;
+  height: 221px;
+}
+
+.live-design .lg-pic {
   width: 445px;
   height: 285px;
+}
+
+@media (max-width: 376px) {
+  .live-design {
+    padding: 45px 15px;
+  }
+  .live-design .introduce {
+    width: 350px;
+    line-height: 1.5;
+  }
+  .live-design .title {
+    width: 350px;
+  }
+  .live-design .title-date {
+    width: 350px;
+    display: block;
+  }
+  .live-design .sm-pic {
+    display: block;
+  }
+  .live-design .lg-pic {
+    display: none;
+  }
+  .live-design .lg-date {
+    display: none;
+  }
 }
 
 .kaohsiung-design {
@@ -35,9 +107,45 @@
   line-height: 1.5;
 }
 
-.kaohsiung-design img {
+.kaohsiung-design .title-date {
+  display: none;
+}
+
+.kaohsiung-design .sm-pic {
+  display: none;
+  width: 345px;
+  height: 221px;
+}
+
+.kaohsiung-design .lg-pic {
   width: 445px;
   height: 285px;
+}
+
+@media (max-width: 376px) {
+  .kaohsiung-design {
+    padding: 45px 15px;
+  }
+  .kaohsiung-design .introduce {
+    width: 350px;
+    line-height: 1.5;
+  }
+  .kaohsiung-design .title {
+    width: 350px;
+  }
+  .kaohsiung-design .title-date {
+    width: 350px;
+    display: block;
+  }
+  .kaohsiung-design .sm-pic {
+    display: block;
+  }
+  .kaohsiung-design .lg-pic {
+    display: none;
+  }
+  .kaohsiung-design .lg-date {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=design.css.map */
