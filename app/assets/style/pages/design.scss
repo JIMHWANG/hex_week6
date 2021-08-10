@@ -16,10 +16,45 @@
         width: 350px;
         line-height: 1.5;
     }
-    img{
+    .title-date{
+        display: none;
+    }
+    .sm-pic{
+        display: none;
+        width: 345px;
+        height: 221px;
+    }
+    .lg-pic{
         width: 445px;
         height: 285px;
     }
+}
+
+@media(max-width:376px){
+    .tai-design{
+        padding: 45px 15px;
+        .introduce{
+            width: 350px;
+            line-height: 1.5;
+        }
+        .title{
+            width: 350px;
+        }
+
+        .title-date{
+            width: 350px;
+            display: block;
+        }
+        .sm-pic{
+            display: block;
+        }
+        .lg-pic{
+            display: none;
+        }
+        .lg-date{
+            display: none;
+        }
+    } 
 }
 
 .live-design{
@@ -28,10 +63,45 @@
         width: 350px;
         line-height: 1.5;
     }
-    img{
+    .title-date{
+        display: none;
+    }
+    .sm-pic{
+        display: none;
+        width: 345px;
+        height: 221px;
+    }
+    .lg-pic{
         width: 445px;
         height: 285px;
     }
+}
+
+@media(max-width:376px){
+    .live-design{
+        padding: 45px 15px;
+        .introduce{
+            width: 350px;
+            line-height: 1.5;
+        }
+        .title{
+            width: 350px;
+        }
+
+        .title-date{
+            width: 350px;
+            display: block;
+        }
+        .sm-pic{
+            display: block;
+        }
+        .lg-pic{
+            display: none;
+        }
+        .lg-date{
+            display: none;
+        }
+    } 
 }
 
 .kaohsiung-design{
@@ -40,8 +110,42 @@
         width: 350px;
         line-height: 1.5;
     }
-    img{
+    .title-date{
+        display: none;
+    }
+    .sm-pic{
+        display: none;
+        width: 345px;
+        height: 221px;
+    }
+    .lg-pic{
         width: 445px;
         height: 285px;
     }
+}
+@media(max-width:376px){
+    .kaohsiung-design{
+        padding: 45px 15px;
+        .introduce{
+            width: 350px;
+            line-height: 1.5;
+        }
+        .title{
+            width: 350px;
+        }
+
+        .title-date{
+            width: 350px;
+            display: block;
+        }
+        .sm-pic{
+            display: block;
+        }
+        .lg-pic{
+            display: none;
+        }
+        .lg-date{
+            display: none;
+        }
+    } 
 }
